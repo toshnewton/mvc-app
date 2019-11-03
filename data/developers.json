@@ -18,4 +18,15 @@
     "GitHub": "https://github.com/denisecase",
   }
   
+  {
+  "_id": "student",
+    "Given": "Tosh",
+    "Family": "Newton",
+    "Email": "s523746@nwmissouri.edu",
+    "GPA": 3.81,
+    "GitHub": "https://github.com/toshnewton",
+    "Website": "https://toshnewton.github.io/about-me/",
+    "SectionID": 02
+  }
+  
 ]
