@@ -1,1 +1,10 @@
-
+[
+  {
+    "_id": 01,
+      "Given": "Denise",
+      "Family": "Case",
+      "Email": "denisecase@nwmissouri.edu",
+      "Salary": 60000,
+      "GitHub": "https://github.com/denisecase",
+  }
+]
