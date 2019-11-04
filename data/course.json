@@ -1,1 +1,11 @@
-
+[
+  {
+      "_id": 01,
+      "SchoolNumber": "44",
+      "CourseNumber": "563",
+      "Name": "Developing Web Apps And Services",
+      "inSpring": "false",
+      "inSummer": "false",
+      "inFall": "true",
+  }
+]
