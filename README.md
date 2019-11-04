@@ -7,6 +7,7 @@
 ## Source
 
 * Forked from - https://github.com/denisecase/node-express-mvc
+* [Source](https://github.com/toshnewton/mvc-app)
 
 <br />
 
@@ -23,7 +24,6 @@
 ## Authors
 
 - [Binita](https://github.com/tanibi)
-- [Brenden](https://github.com/S526555)
 - [Aawaj](https://github.com/aawajjoshi)
 - [Tosh](https://github.com/toshnewton)
 
