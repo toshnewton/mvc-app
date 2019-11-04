@@ -34,7 +34,7 @@ const InstructorSchema = new mongoose.Schema({
     required: true,
     default: '60000'
   },
-  github: {
+  gitHub: {
     type: String,
     minlength: 4,
     maxlength: 100,
