@@ -1,1 +1,11 @@
-
+[
+  {
+    "_id": 01,
+      "SectionNumber": 02,
+      "Days": "MWF",
+      "StartTime": 1100,
+      "RoomNumber": "CH 1200",
+      "InstructorID": 01,
+      "CourseID": 01
+    }
+   
