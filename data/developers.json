@@ -1,6 +1,6 @@
 [
   {
-    "_id": "teacher",
+    "_id": 01,
     "SchoolNumber": "44",
     "CourseNumber": "563",
     "Name": "Developing Web Apps And Services",
@@ -10,7 +10,7 @@
   }
   
   {
-  "_id": "instructor",
+  "_id": 01,
     "Given": "Denise",
     "Family": "Case",
     "Email": "denisecase@nwmissouri.edu",
@@ -19,7 +19,7 @@
   }
   
   {
-  "_id": "student",
+  "_id": 01,
     "Given": "Tosh",
     "Family": "Newton",
     "Email": "s523746@nwmissouri.edu",
