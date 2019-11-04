@@ -1,32 +1,24 @@
 [
+{
+    "_id": 99,
+    "email": "dcase@nwmissouri.edu",
+    "given": "Denise",
+    "family": "Case",
+    "city": "Maryville",
+    "state": "MO",
+    "zip": 64468,
+    "country": "USA",
+    "URL": "https://www.nwmissouri.edu/csis/directory/case.htm"
+  },
   {
-    "_id": 01,
-    "SchoolNumber": "44",
-    "CourseNumber": "563",
-    "Name": "Developing Web Apps And Services",
-    "inSpring": "false",
-    "inSummer": "false",
-    "inFall": "true",
+    "_id": 100,
+    "email": "michael@nwmissouri.edu",
+    "given": "Michael",
+    "family": "Case",
+    "city": "Rogers",
+    "state": "MO",
+    "zip": 64468,
+    "country": "USA",
+    "URL": "https://www.nwmissouri.edu/csis/directory/rogers.htm"
   }
-  
-  {
-  "_id": 01,
-    "Given": "Denise",
-    "Family": "Case",
-    "Email": "denisecase@nwmissouri.edu",
-    "Salary": 60000,
-    "GitHub": "https://github.com/denisecase",
-  }
-  
-  {
-  "_id": 01,
-    "Given": "Tosh",
-    "Family": "Newton",
-    "Email": "s523746@nwmissouri.edu",
-    "GPA": 3.81,
-    "GitHub": "https://github.com/toshnewton",
-    "Website": "https://toshnewton.github.io/about-me/",
-    "SectionID": 02
-  }
-  
 ]
