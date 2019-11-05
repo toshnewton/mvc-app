@@ -38,4 +38,4 @@ const SectionSchema = new mongoose.Schema({
   }
 
 })
-module.exports = mongoose.model('Instructor', SectionSchema)
+module.exports = mongoose.model('Section', SectionSchema)
