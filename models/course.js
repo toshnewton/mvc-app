@@ -49,4 +49,4 @@ const CourseSchema = new mongoose.Schema({
     default: 'NWMSU'
   }
 })
-module.exports = mongoose.model('Section', SectionSchema)
+module.exports = mongoose.model('Course', CourseSchema)

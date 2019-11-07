@@ -3,8 +3,48 @@
     "_id": 1,
       "given": "Denise",
       "family": "Case",
-      "email": "denisecase@nwmissouri.edu",
-      "salary": 60000,
+      "email": "dcase@nwmissouri.edu",
+      "salary": 65000,
       "gitHub": "https://github.com/denisecase"
+  },
+  {
+    "_id": 2,
+      "given": "Carol",
+      "family": "Spradling",
+      "email": "csprad@nwmissouri.edu",
+      "salary": 80000,
+      "gitHub": "https://github.com/csprad"
+  },
+  {
+    "_id": 3,
+      "given": "Nathan",
+      "family": "Eloe",
+      "email": "neloe@nwmissouri.edu",
+      "salary": 65000,
+      "gitHub": "https://github.com/neloe"
+  },
+  {
+    "_id": 4,
+      "given": "Dawg",
+      "family": "Hawley",
+      "email": "dhawl@nwmissouri.edu",
+      "salary": 75000,
+      "gitHub": "https://github.com/dhawl"
+  },
+  {
+    "_id": 5,
+      "given": "Ajay",
+      "family": "Bandi",
+      "email": "abandi@nwmissouri.edu",
+      "salary": 70000,
+      "gitHub": "https://github.com/aband"
+  },
+  {
+    "_id": 6,
+      "given": "Charles",
+      "family": "Hoot",
+      "email": "choot@nwmissouri.edu",
+      "salary": 65000,
+      "gitHub": "https://github.com/choot"
   }
 ]

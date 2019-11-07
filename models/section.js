@@ -6,8 +6,8 @@ const SectionSchema = new mongoose.Schema({
     type: Number,
     required: true
   },
-  sectionnumber: {
-    type: char,
+  sectionNum: {
+    type: Number,
     required: true
   },
   days: {
@@ -15,24 +15,25 @@ const SectionSchema = new mongoose.Schema({
     minlength: 3,
     maxlength: 100,
     required: true,
+    default: "MWF"
   },
-  starttime: {
-    type: Number,
+  startTime: {
+    type: String,
     minlength: 3,
     maxlength: 100,
     required: true,
   },
-  roomnumber: {
+  location: {
     type: String,
     minlength: 5,
     maxlength: 100,
     required: true,
   },
-  instructorid: {
+  instructor: {
     type: Number,
     required: true
   },
-  courseid: {
+  courseID: {
     type: Number,
     required: true
   }

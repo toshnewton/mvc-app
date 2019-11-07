@@ -1,56 +1,56 @@
 [
   {
       "_id": 1,
-      "courseNum": 44242,
-      "courseName": "Data Structures",
-      "department": "Computer Science",
-      "instructor": "Nathan Eloe",
-      "seats": "28",
-      "location": "CH 1400"
+      "sectionNum": 2,
+      "days": "MWF",
+      "startTime": "11am",
+      "location": "CH 1200",
+      "instructor": "Denise Case",
+      "courseID": 44463
     },
     {
       "_id": 2,
-      "courseNum": 44517,
-      "courseName": "Big Data",
-      "department": "Computer Science",
+      "sectionNum": 3,
+      "days": "MWF",
+      "startTime": "10am",
+      "location": "VLK 1200",
       "instructor": "Denise Case",
-      "seats": "20",
-      "location": "VLK 111"
+      "courseID": 44517
     },
     {
       "_id": 3,
-      "courseNum": 44542,
-      "courseName": "Object Oriented Programming",
-      "department": "Computer Science",
+      "sectionNum": 1,
+      "days": "TR",
+      "startTime": "8am",
+      "location": "CH 1200",
       "instructor": "Carol Spradling",
-      "seats": "24",
-      "location": "CH 1200"
+      "courseID": 44542
     },
     {
       "_id": 4,
-      "courseNum": 44520,
-      "courseName": "Web Mining",
-      "department": "Computer Science",
+      "sectionNum": 4,
+      "days": "TR",
+      "startTime": "1pm",
+      "location": "CH 1350",
       "instructor": "Nathan Eloe",
-      "seats": "22",
-      "location": "CH 1350"
+      "courseID": 44520
     },
     {
       "_id": 5,
-      "courseNum": 44460,
-      "courseName": "Database Systems",
-      "department": "Computer Science",
+      "sectionNum": 2,
+      "days": "TR",
+      "startTime": "2pm",
+      "location": "CH 3600",
       "instructor": "Charles Badami",
-      "seats": "21",
-      "location": "CH 3600"
+      "courseID": 44460
     },
     {
       "_id": 6,
-      "courseNum": 44335,
-      "courseName": "Script Programming",
-      "department": "Computer Science",
+      "sectionNum": 1,
+      "days": "MWF",
+      "startTime": "3pm",
+      "location": "CH 1350",
       "instructor": "Diana Linville",
-      "seats": "23",
-      "location": "CH 1350"
+      "courseID": 44335
     }
   ]
