@@ -1,11 +1,56 @@
 [
   {
-    "_id": 01,
-      "SectionNumber": 02,
-      "Days": "MWF",
-      "StartTime": 1100,
-      "RoomNumber": "CH 1200",
-      "InstructorID": 01,
-      "CourseID": 01
+      "_id": 1,
+      "courseNum": 44242,
+      "courseName": "Data Structures",
+      "department": "Computer Science",
+      "instructor": "Nathan Eloe",
+      "seats": "28",
+      "location": "CH 1400"
+    },
+    {
+      "_id": 2,
+      "courseNum": 44517,
+      "courseName": "Big Data",
+      "department": "Computer Science",
+      "instructor": "Denise Case",
+      "seats": "20",
+      "location": "VLK 111"
+    },
+    {
+      "_id": 3,
+      "courseNum": 44542,
+      "courseName": "Object Oriented Programming",
+      "department": "Computer Science",
+      "instructor": "Carol Spradling",
+      "seats": "24",
+      "location": "CH 1200"
+    },
+    {
+      "_id": 4,
+      "courseNum": 44520,
+      "courseName": "Web Mining",
+      "department": "Computer Science",
+      "instructor": "Nathan Eloe",
+      "seats": "22",
+      "location": "CH 1350"
+    },
+    {
+      "_id": 5,
+      "courseNum": 44460,
+      "courseName": "Database Systems",
+      "department": "Computer Science",
+      "instructor": "Charles Badami",
+      "seats": "21",
+      "location": "CH 3600"
+    },
+    {
+      "_id": 6,
+      "courseNum": 44335,
+      "courseName": "Script Programming",
+      "department": "Computer Science",
+      "instructor": "Diana Linville",
+      "seats": "23",
+      "location": "CH 1350"
     }
-   
+  ]
