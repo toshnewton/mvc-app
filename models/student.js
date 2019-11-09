@@ -33,7 +33,7 @@ const StudentSchema = new mongoose.Schema({
     maxlength: 3,
     required: true
   },
-  github: {
+  gitHub: {
     type: String,
     minlength: 4,
     maxlength: 100,
