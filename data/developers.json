@@ -1,24 +1,68 @@
 [
 {
-    "_id": 99,
-    "email": "dcase@nwmissouri.edu",
-    "given": "Denise",
-    "family": "Case",
+    "_id": 1,
+    "email": "tosh@nwmissouri.edu",
+    "given": "Tosh",
+    "family": "Newton",
     "city": "Maryville",
     "state": "MO",
     "zip": 64468,
     "country": "USA",
-    "URL": "https://www.nwmissouri.edu/csis/directory/case.htm"
+    "URL": "www.toshnewton.com"
   },
   {
-    "_id": 100,
-    "email": "michael@nwmissouri.edu",
-    "given": "Michael",
-    "family": "Case",
-    "city": "Rogers",
+    "_id": 2,
+    "email": "aawaj@nwmissouri.edu",
+    "given": "Aawaj",
+    "family": "Joshi",
+    "city": "Maryville",
     "state": "MO",
     "zip": 64468,
     "country": "USA",
-    "URL": "https://www.nwmissouri.edu/csis/directory/rogers.htm"
+    "URL": "www.aawajjoshi.com"
+  },
+  {
+    "_id": 3,
+    "email": "binit@nwmissouri.edu",
+    "given": "Binita",
+    "family": "Singh",
+    "city": "Maryville",
+    "state": "MO",
+    "zip": 64468,
+    "country": "USA",
+    "URL": "www.binitasingh.com"
+  },
+  {
+    "_id": 4,
+    "email": "nature@nwmissouri.edu",
+    "given": "Nature",
+    "family": "Pokharel",
+    "city": "Maryville",
+    "state": "MO",
+    "zip": 64468,
+    "country": "USA",
+    "URL": "www.naturepokharel.com"
+  },
+  {
+    "_id": 5,
+    "email": "harry@nwmissouri.edu",
+    "given": "Harry",
+    "family": "Potter",
+    "city": "Hogwarts",
+    "state": "HG",
+    "zip": 12345,
+    "country": "UK",
+    "URL": "www.thechosenone.com"
+  },
+  {
+    "_id": 6,
+    "email": "john@nwmissouri.edu",
+    "given": "John",
+    "family": "Doe",
+    "city": "Brooklyn",
+    "state": "NY",
+    "zip": 11221,
+    "country": "USA",
+    "URL": "www.johndoe.com"
   }
 ]
