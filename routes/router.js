@@ -8,8 +8,6 @@
  */
 
 const express = require('express')
-
-console.log('START routing')
 const router = express.Router()
 
 // Manage top-level request first
@@ -43,5 +41,4 @@ router.use((err, req, res, next) => {
   res.render('error', { status: err.status, message: err.message })
 })
 
-console.log('END routing')
 module.exports = router

@@ -1,6 +1,6 @@
 const express = require('express')
 const api = express.Router()
-// const Model = require('../models/instructor.js')
+const Model = require('../models/instructor.js')
 const find = require('lodash.find')
 const notfoundstring = 'Could not find instructor with id='
 
@@ -25,10 +25,86 @@ api.get('/findone/:id', (req, res) => {
 
 // RESPOND WITH VIEWS  --------------------------------------------
 
-// later
+// GET to this controller base URI (the default)
+api.get('/', (req, res) => {
+  res.render('instructor/index.ejs', {
+    instructor: req.app.locals.instructor.query
+  })
+})
+
+// GET create
+api.get('/create', (req, res) => {
+  res.render('instructor/create', {
+    instructor: req.app.locals.instructor.query,
+    instructor: new Model()
+  })
+})
+
+// GET /delete/:id
+api.get('/delete/:id', (req, res) => {
+  const id = parseInt(req.params.id)
+  const data = req.app.locals.instructor.query
+  const item = find(data, { _id: id })
+  if (!item) { return res.end(notfoundstring + id) }
+  res.render('instructor/delete', {
+    instructor: item
+  })
+})
+
+// GET /details/:id
+api.get('/details/:id', (req, res) => {
+  const id = parseInt(req.params.id)
+  const data = req.app.locals.instructor.query
+  const item = find(data, { _id: id })
+  if (!item) { return res.end(notfoundstring + id) }
+  res.render('instructor/details', {
+    instructor: item
+  })
+})
+
+// GET one
+api.get('/edit/:id', (req, res) => {
+  const id = parseInt(req.params.id)
+  const data = req.app.locals.instructor.query
+  const item = find(data, { _id: id })
+  if (!item) { return res.end(notfoundstring + id) }
+  res.render('instructor/edit', {
+    instructor: item
+  })
+})
 
 // RESPOND WITH DATA MODIFICATIONS  -------------------------------
 
-// later
+// POST new
+api.post('/save', (req, res) => {
+  console.info(`Handling POST ${req}`)
+  console.debug(JSON.stringify(req.body))
+  const item = new Model()
+  console.info(`NEW ID ${req.body._id}`)
+  item._id = parseInt(req.body._id)
+  item.given = req.body.given
+  item.family = req.body.family
+  item.email = req.body.email
+  item.salary = parseInt(req.body.salary)
+  item.gitHub = req.body.gitHub
+  res.send(`THIS FUNCTION WILL SAVE A NEW instructor ${JSON.stringify(item)}`)
+})
+
+// POST update with id
+api.post('/save/:id', (req, res) => {
+  console.info(`Handling SAVE request ${req}`)
+  const id = parseInt(req.params.id)
+  console.info(`Handling SAVING ID=${id}`)
+  res.send(`THIS FUNCTION WILL SAVE CHANGES TO AN EXISTING instuctor with id=${id}`)
+})
+
+// DELETE id (uses HTML5 form method POST)
+api.post('/delete/:id', (req, res) => {
+  console.info(`Handling DELETE request ${req}`)
+  const id = parseInt(req.params.id)
+  console.info(`Handling REMOVING ID=${id}`)
+  res.send(`THIS FUNCTION WILL DELETE FOREVER THE EXISTING instructor with id=${id}`)
+})
+
 
 module.exports = api

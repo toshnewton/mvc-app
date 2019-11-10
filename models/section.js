@@ -30,7 +30,9 @@ const SectionSchema = new mongoose.Schema({
     required: true,
   },
   instructor: {
-    type: Number,
+    type: String,
+    minlength: 5,
+    maxlength: 100,
     required: true
   },
   courseID: {
