@@ -4,35 +4,35 @@
   <div class=row>
     <div class="col col-md-12">
       <a href="section/create" class="btn btn-primary new">
-        Create a new section
+        Create a new student
       </a>
 
       <h2>Recent entries</h2>
       <p>There are
-        <%= section.length %> sections.
+        <%= student.length %> students.
         <br>
       </p>
-      <% for (let i = section.length-1; i >= 0; i--) {   
-        section = section[i];   %>
+      <% for (let i = student.length-1; i >= 0; i--) {   
+        students = student[i];   %>
 
       <div class="panel panel-default">
         <div class="panel-heading"></div>
         <div class="text-muted pull-right"></div>
         <div class="panel-body">
 
-          <br> ID: <%=  student._id %>
-          <br> Given: <%=student.given%>
-          <br> Family: <%=student.family%>
-          <br> Email: <%=student.email%>
-          <br> GPA: <%=student.gpa %>
-          <br> GitHub: <%=student.gitHub %>
-          <br> Website: <%=student.website %>
-          <br> Section ID: <%=student.sectionID %>
+          <br> ID: <%=  students._id %>
+          <br> Given: <%=students.given%>
+          <br> Family: <%=students.family%>
+          <br> Email: <%=students.email%>
+          <br> GPA: <%=students.gpa %>
+          <br> GitHub: <%=students.gitHub %>
+          <br> Website: <%=students.website %>
+          <br> Section ID: <%=students.sectionID %>
 
           <hr>
-          <a href="/section/delete/<%= section._id  %>" class="btn btn-danger"> Delete </a>
-          <a href="/section/details/<%= section._id %>" class="btn btn-info"> Details </a>
-          <a href="/section/edit/<%= section._id %>" class="btn btn-primary"> Edit </a>
+          <a href="/student/delete/<%= students._id  %>" class="btn btn-danger"> Delete </a>
+          <a href="/student/details/<%= students._id %>" class="btn btn-info"> Details </a>
+          <a href="/student/edit/<%= students._id %>" class="btn btn-primary"> Edit </a>
           <hr>
           <hr>
         </div>

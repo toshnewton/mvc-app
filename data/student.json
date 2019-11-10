@@ -1,62 +1,61 @@
-[
-  {
+[{
     "_id": 1,
-      "Given": "Tosh",
-      "Family": "Newton",
-      "Email": "s523746@nwmissouri.edu",
-      "GPA": 3.81,
-      "GitHub": "https://github.com/toshnewton",
-      "Website": "https://toshnewton.github.io/about-me/",
-      "SectionID": 2
-    },
-    {
-      "_id": 2,
-        "Given": "Aawaj",
-        "Family": "Joshi",
-        "Email": "s521315@nwmissouri.edu",
-        "GPA": 4.0,
-        "GitHub": "https://github.com/aawajjoshi",
-        "Website": "https://aawajjoshi.github.io/about-me/",
-        "SectionID": 2
-      },
-      {
-        "_id": 3,
-          "Given": "Binita",
-          "Family": "Singh",
-          "Email": "s12345@nwmissouri.edu",
-          "GPA": 4.0,
-          "GitHub": "https://github.com/tanibi",
-          "Website": "https://tanibi.github.io/about-me/",
-          "SectionID": 2
-        },
-        {
-          "_id": 4,
-            "Given": "Nature",
-            "Family": "Pokharel",
-            "Email": "s678910@nwmissouri.edu",
-            "GPA": 4.0,
-            "GitHub": "https://github.com/naturep",
-            "Website": "https://naturep.github.io/about-me/",
-            "SectionID": 1
-          },
-          {
-            "_id": 5,
-              "Given": "John",
-              "Family": "Doe",
-              "Email": "s111213@nwmissouri.edu",
-              "GPA": 3.48,
-              "GitHub": "https://github.com/johndoe",
-              "Website": "https://johndoe.github.io/about-me/",
-              "SectionID": 3
-            },
-            {
-              "_id": 6,
-                "Given": "Harry",
-                "Family": "Potter",
-                "Email": "s522379@nwmissouri.edu",
-                "GPA": 4.0,
-                "GitHub": "https://github.com/thechosenone",
-                "Website": "https://thechosenone.github.io/about-me/",
-                "SectionID": 3
-              }
- ]
+    "given": "Tosh",
+    "family": "Newton",
+    "email": "s523746@nwmissouri.edu",
+    "gpa": 3.81,
+    "gitHub": "https://github.com/toshnewton",
+    "website": "https://toshnewton.github.io/about-me/",
+    "sectionID": 2
+  },
+  {
+    "_id": 2,
+    "given": "Aawaj",
+    "family": "Joshi",
+    "email": "s521315@nwmissouri.edu",
+    "gpa": 4.0,
+    "gitHub": "https://github.com/aawajjoshi",
+    "website": "https://aawajjoshi.github.io/about-me/",
+    "sectionID": 2
+  },
+  {
+    "_id": 3,
+    "given": "Binita",
+    "family": "Singh",
+    "email": "s12345@nwmissouri.edu",
+    "gpa": 4.0,
+    "gitHub": "https://github.com/tanibi",
+    "website": "https://tanibi.github.io/about-me/",
+    "sectionID": 2
+  },
+  {
+    "_id": 4,
+    "given": "Nature",
+    "family": "Pokharel",
+    "email": "s678910@nwmissouri.edu",
+    "gpa": 4.0,
+    "gitHub": "https://github.com/naturep",
+    "website": "https://naturep.github.io/about-me/",
+    "sectionID": 1
+  },
+  {
+    "_id": 5,
+    "given": "John",
+    "family": "Doe",
+    "email": "s111213@nwmissouri.edu",
+    "gpa": 3.48,
+    "gitHub": "https://github.com/johndoe",
+    "website": "https://johndoe.github.io/about-me/",
+    "sectionID": 3
+  },
+  {
+    "_id": 6,
+    "given": "Harry",
+    "family": "Potter",
+    "email": "s522379@nwmissouri.edu",
+    "gpa": 4.0,
+    "gitHub": "https://github.com/thechosenone",
+    "website": "https://thechosenone.github.io/about-me/",
+    "sectionID": 3
+  }
+]

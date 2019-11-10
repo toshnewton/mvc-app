@@ -1,6 +1,6 @@
 {
-  "name": "node-express",
-  "description": "Express web app using MVC (no views yet)",
+  "name": "node-express-mvc-views",
+  "description": "Express web app using MVC (with views)",
   "version": "1.0.0",
   "author": "Denise Case",
   "dependencies": {

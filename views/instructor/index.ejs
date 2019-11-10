@@ -13,24 +13,24 @@
         <br>
       </p>
       <% for (let i = instructor.length-1; i >= 0; i--) {   
-        instructor = instructor[i];   %>
+        instructors = instructor[i];   %>
 
       <div class="panel panel-default">
         <div class="panel-heading"></div>
         <div class="text-muted pull-right"></div>
         <div class="panel-body">
 
-            <br> ID: <%=  instructor._id %>
-            <br> Given: <%=instructor.given%>
-            <br> Family: <%=instructor.family%>
-            <br> Email: <%=instructor.email%>
-            <br> Salary: <%=instructor.salary %>
-            <br> GitHub: <%=instructor.gitHub %>
+            <br> ID: <%=  instructors._id %>
+            <br> Given: <%=instructors.given%>
+            <br> Family: <%=instructors.family%>
+            <br> Email: <%=instructors.email%>
+            <br> Salary: <%=instructors.salary %>
+            <br> GitHub: <%=instructors.gitHub %>
 
           <hr>
-          <a href="/instructor/delete/<%= instructor._id  %>" class="btn btn-danger"> Delete </a>
-          <a href="/instructor/details/<%= instructor._id %>" class="btn btn-info"> Details </a>
-          <a href="/instructor/edit/<%= instructor._id %>" class="btn btn-primary"> Edit </a>
+          <a href="/instructor/delete/<%= instructors._id  %>" class="btn btn-danger"> Delete </a>
+          <a href="/instructor/details/<%= instructors._id %>" class="btn btn-info"> Details </a>
+          <a href="/instructor/edit/<%= instructors._id %>" class="btn btn-primary"> Edit </a>
           <hr>
           <hr>
         </div>

@@ -1,0 +1,49 @@
+<!-- main - a row holds columns -->
+<div class=row>
+    <div class="col col-xs-12">
+  
+      <div class="form-group">
+        <label for="sectionNum">Section Number</label>
+        <input type="number" class="form-control" id="sectionNum" name="sectionNum" value="<%= section.sectionNum %>" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="days">Days</label>
+        <input type="text" class="form-control" id="days" name="days" value="<%= section.days %>">
+      </div>
+  
+      <div class="form-group">
+        <label for="startTime">Start Time</label>
+        <input type="text" class="form-control" id="startTime" name="startTime" value="<%= section.startTime %>">
+      </div>
+
+      <div class="form-group">
+        <label for="location">Location</label>
+        <input type="text" class="form-control" id="location" name="location" value="<%= section.location %>">
+      </div>
+  
+      <div class="form-group">
+        <label for="instructor">Instructor</label>
+        <input type="text" class="form-control" id="instructor" name="instructor" value="<%= section.instructor %>">
+      </div>
+  
+      <div class="form-group">
+        <label for="courseID">Course ID</label>
+        <input type="number" class="form-control" id="courseID" name="courseID" value="<%= section.courseID %>">
+      </div>
+    </div>
+  </div>
+  
+  <!-- PUT CLIENT SIDE CODE HERE -->
+  <script>
+   
+    // prevent submission when hitting enter key - optional, but user-friendly 
+    document.forms[0].onkeypress = function (e) {
+      var key = e.charCode || e.keyCode || 0;
+      if (key == 13) {
+        e.preventDefault();
+      }
+    }
+  
+  // END CLIENT SIDE CODE  (close the script tag)
+  </script>
