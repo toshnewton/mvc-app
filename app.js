@@ -91,10 +91,10 @@ connection.once('open', function () {
   LOG.info(`MongoDB connected ${dbURI}\n`)
 
   seed('developers')
-  seed('customers')
-  seed('products')
-  seed('orders')
-  seed('orderlineitems')
+  seed('instructor')
+  seed('course')
+  seed('section')
+  seed('student')
 
   connection.on('connected', function () {
     LOG.info('MongoDB event connected')
