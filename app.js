@@ -137,7 +137,7 @@ app.use(express.static(path.join(__dirname, 'public'), { maxAge: 31557600000 }))
 app.use(expressLayouts)
 app.use(errorHandler()) // load error handler
 
-const routes = require('./routes/index.js')
+const routes = require('./routes/router.js')
 app.use('/', routes) // load routing to handle all requests
 LOG.info('Loaded routing.')
 
