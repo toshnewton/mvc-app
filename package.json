@@ -19,7 +19,7 @@
     "helmet": "latest",
     "lodash": "latest",
     "lodash.find": "latest",
-    "mongodb": "^3.2.3",
+    "mongodb": "^3.3.5",
     "mongoose": "latest",
     "morgan": "latest",
     "request": "latest",
