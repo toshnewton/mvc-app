@@ -75,7 +75,7 @@ const connectionOptions = {
 mongoose.connect(dbURI, connectionOptions, (err, client) => {
   if (err) { LOG.error('Error in MongoDB connection : ' + JSON.stringify(err, undefined, 2)) }
   LOG.info('MongoDB connection succeeded.')
-
+})
 // Get the default connection
 const connection = mongoose.connection
 
@@ -158,7 +158,7 @@ const host = app.get('host')
 const env = isProduction ? 'production' : 'development'
 
 app.listen(process.env.PORT || 8089, () => {
-  console.log(`\nApp running at http://${host}:${port}/ in ${env} mode`)
+  console.log(`\nApp running at http://${host}:${port}/ with ${env} data`)
   console.log('Press CTRL-C to stop\n')
 })
 
