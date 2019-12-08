@@ -49,9 +49,9 @@ const DB_NAME = process.env.DB_NAME
 
 // set connection options
 const connectionOptions = {
-  //dbName: DB_NAME,
-  //useNewUrlParser: true,
-  //useCreateIndex: true,
+  dbName: DB_NAME,
+  useNewUrlParser: true,
+  useCreateIndex: true,
   //useFindAndModify: false,
   //useUnifiedTopology: true,
   //autoIndex: false, // Don't build indexes
